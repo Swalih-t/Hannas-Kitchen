@@ -1,0 +1,102 @@
+
+
+body{
+    padding:0;
+    margin:0;    
+    width: 100vw;
+}
+
+.first-image img{
+    width: 100vw;
+    
+}
+
+.left-section-second-part{
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.left-section{
+    display: flex;
+    background-blend-mode: overlay;
+    background: beige;
+    height:50vh;
+
+}
+
+.left-section-first-part img{
+    max-width:15em;
+}
+
+.left-section-second-part p{
+    font-family: cursive;
+    padding:0px 17px;
+}
+
+.right-section{
+    visibility: visible;
+}
+
+.right-section img{
+    max-width: 25em;
+    position: absolute;
+    top:7em;
+    left:10em;
+}
+
+.right-section img:hover{
+    opacity: 40%;
+    transition:all 1s;
+    
+}
+
+.right-section h1{
+    position: absolute;
+    top: 1em;
+    left: 6em;
+    width: 20vw;
+    font-family: cursive;
+}
+
+.right-section p{
+    display: none;
+    position: absolute;
+    top: 70%;
+    font-size: 25px;
+    left: 60%;
+    font-weight: 800;
+    font-family: cursive;
+    color: maroon;
+    border: 2px solid darkslategrey;
+    width: 266px;
+}
+
+.second-contact-image{
+    margin-left: 12em;
+    height: 29em;
+    margin-top:1em;
+
+}
+
+.second-contact-text{
+    margin-left: 6em;
+    width: 25em;
+    font-family: cursive;
+}
+
+
+@media only screen and (max-width:800px){
+    .right-section{
+        visibility:hidden;
+    }
+    .second-contact-image{
+        display: none;
+    }
+    .second-contact-text{
+        display: none;
+    }
+    .left-section-second-part p{
+        font-size:10px;
+    }
+}

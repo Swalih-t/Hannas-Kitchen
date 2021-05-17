@@ -1,0 +1,44 @@
+.footer-main{
+    height:15vh;
+    background-color: ghostwhite;
+}
+
+.footer h2{
+    margin-top:1%;
+    font-family: cursive;
+    color:grey;
+    text-align: center;
+}
+
+.horizontal-line{
+    background-color: grey;
+    width: 16vw;
+    height: 0.1em;
+    margin-left: 8em;
+}
+
+.fab, .far {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.icons{
+    margin-left: 2em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-i{
+    width: 4vw;
+}
+
+@media only screen and (max-width:800px){
+    .horizontal-line{
+    width: 30vw;
+    margin-left: 10em;
+    }
+    .icon-i{
+        width: 10vw;
+    }
+}

@@ -1,0 +1,12 @@
+.header-name {
+    text-align: center;
+    color:rgb(239 62 152 / 89%);
+    font-stretch:condensed;
+    font-size:5em;
+    font-family: cursive;
+    margin-top:1%;
+}
+
+.link-style:hover{
+    color:red;
+}
